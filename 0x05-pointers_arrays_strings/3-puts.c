@@ -4,18 +4,15 @@
 /**
  * _puts - function that prints a string, followed by a new line, to stdout
  * @str: poiner value
- * Return: Always 0 (Success)
+ * Return: nothing on Success
  */
 
 void _puts(char *str)
 {
-	int a = 0;
-
-	while (str[a] != '\0')
+	while (*str)
 	{
-		_putchar(str[a]);
-		a++;
+		_putchar(*str);
+		strr++
 	}
-
-	_putchar('\n');
+	_putchar('\n)');
 }
