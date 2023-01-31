@@ -6,8 +6,8 @@ SECTION .text
 extern printf
 global main
 main:
-mov esi,
-msgmov edi, fmt
+mov esi, msg
+mov edi, fmt
 mov eax, 0
 call printf
 
